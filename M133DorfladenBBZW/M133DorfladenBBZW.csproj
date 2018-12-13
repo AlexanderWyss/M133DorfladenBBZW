@@ -68,13 +68,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\img\appenzeller.jpg" />
+    <Content Include="App_Data\img\eier.jpg" />
+    <Content Include="App_Data\img\icedtea.jpg" />
+    <Content Include="App_Data\img\kalbsbratwuerste.jpg" />
+    <Content Include="App_Data\img\krustenkranz.jpg" />
+    <Content Include="App_Data\img\logo.png" />
+    <Content Include="App_Data\img\nektarinen.jpg" />
+    <Content Include="App_Data\img\olivenoel.jpg" />
+    <Content Include="App_Data\img\senf.jpg" />
+    <Content Include="App_Data\img\tomaten.jpg" />
+    <Content Include="App_Data\img\vanille_glace.jpg" />
+    <Content Include="Overview.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSVReader.cs" />
+    <Compile Include="Overview.aspx.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Overview.aspx.designer.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="App_Data\products.csv" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
