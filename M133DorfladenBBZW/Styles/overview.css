@@ -1,0 +1,25 @@
+﻿.itemImage { width: 100px; }
+
+.itemContainer {
+    display: inline-block;
+    font-size: smaller;
+    margin: 10px;
+}
+
+.itemPrice {
+    font-size: smaller;
+}
+
+.itemNormalPrice {
+    color: red;
+    text-decoration: line-through;
+}
+
+.itemName {
+    color: orange;
+    font-size: small;
+}
+
+.title {
+    color: orange;
+} 
